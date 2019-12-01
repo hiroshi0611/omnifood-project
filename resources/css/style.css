@@ -101,12 +101,40 @@ h3{
 }
 
 /* -------------ICONS------------- */
-ion-icon{
+.icon{
     font-size: 3.5rem;
     display: block;
     color: #e67e22;
     margin-bottom: 10px;
 }
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 1.2rem;
+    margin-right: 10px;
+
+    /* secrets align text and icon */
+    line-height: 1.2rem;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+/* ----------LINKS----------- */
+
+a{
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+a:hover{
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
 
 /* ----------BUTTONS----------- */
 
@@ -161,6 +189,8 @@ header {
   height: 100vh;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
+
 }
 
 .hero-text-box {
@@ -295,8 +325,120 @@ header {
     margin-right: 25px;
 }
 
+.btn-app:link{
+    border: 0;
+}
+
 .btn-app img{
     height: 50px ;
     width: auto;
     margin-right: 10px;
+}
+/* ------------------------------------ */
+/* HOW IT WORKS */
+/* ------------------------------------ */
+
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature{
+    margin-bottom: 5px;
+}
+
+/* ------------------------------------ */
+/* TESTIMONIALS */
+/* ------------------------------------ */
+.section-testimonials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/resources/img/back-customers.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+}
+
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 1.45rem;
+    position: relative;
+}
+
+cite{
+    font-size: 0.9rem;
+    margin-top: 25px;
+    display: block;
+}
+
+blockquote:before{
+    content: "\201C";
+    font-size: 5rem;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -3px;
+}
+
+cite img{
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+
+}
+/* ------------------------------------ */
+/* SIGN UP */
+/* ------------------------------------ */
+
+.section-plans{
+    background-color: #f4f4f4;
+
+}
+
+.plain-box{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 2px 2px 2px rgb(219, 219, 219);
+}
+
+.plain-box div{
+    padding: 15px;
+    border-bottom: 1px solid #e67e22;
+}
+
+.plain-box div:first-child{
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.plain-box div:last-child{
+    text-align: center;
+    border: none;    
+}
+
+.plain-price{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22 ;
+}
+
+.plain-price span{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.plain-price-meal{
+    font-size: 0.8rem;
+}
+.plain-box ul{
+    list-style: none;
+}
+
+.plain-box ul li{
+    padding: 5px 0;
 }
