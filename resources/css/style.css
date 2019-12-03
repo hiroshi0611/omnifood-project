@@ -674,3 +674,7 @@ footer p{
 .hide {
     display: none;
 }
+
+a.mobile-nav-icon.js--nav-icon{
+    margin-top: 10px;
+}
