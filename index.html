@@ -18,7 +18,8 @@
     <header>
         <nav>
             <div class="row">
-                <img src="resources/img/logo-white.png" alt="Ominifood logo" class="logo">
+                <img src="resources/img/logo-white.png" alt="Omnifood logo" class="logo">
+                <img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black">
                 <ul class="main-nav">
                     <li><a href="">Food delivery</a></li>
                     <li><a href="">How it works</a></li>
@@ -35,7 +36,7 @@
         </div>
     </header>
 
-    <section class="section-features">
+    <section class="section-features js--section-features">
         <div class="row">
             <h2>Get food fast &mdash; not fast food.</h2>
             <p class="long-copy">
@@ -47,7 +48,7 @@
 
         <div class="row">
             <div class="col span-1-of-4 box">
-                <ion-icon name="ios-infinite" class="icon"></ion-icon>
+                <ion-icon name="ios-infinite" class="icon-feature"></ion-icon>
                 <h3>Up to 365 days/year</h3>
                 <p>
                     Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage.
@@ -56,7 +57,7 @@
                 </p>
             </div>
             <div class="col span-1-of-4 box">
-                <ion-icon name="ios-time" class="icon"></ion-icon>
+                <ion-icon name="ios-time" class="icon-feature"></ion-icon>
                 <h3>Ready in 20 minutes</h3>
                 <p>
                     You're only twenty minutes away from your delicious and super healthy meals delivered right to your
@@ -65,7 +66,7 @@
                 </p>
             </div>
             <div class="col span-1-of-4 box">
-                <ion-icon name="ios-nutrition" class="icon"></ion-icon>
+                <ion-icon name="ios-nutrition" class="icon-feature"></ion-icon>
                 <h3>100% organic</h3>
                 <p>
                     All our vegetables are fresh, organic and local. Animals are raised without added hormones or
@@ -73,7 +74,7 @@
                 </p>
             </div>
             <div class="col span-1-of-4 box">
-                <ion-icon name="ios-cart" class="icon"></ion-icon>
+                <ion-icon name="ios-cart" class="icon-feature"></ion-icon>
                 <h3>Order anything</h3>
                 <p>
                     We don't limit your creativity, which means you can order whatever you feel like. You can also
@@ -433,7 +434,8 @@
                             <label for="message">Drop us a line</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <textarea name="message" id="message" cols="20" rows="3" placeholder="Your message"></textarea>
+                            <textarea name="message" id="message" cols="20" rows="3"
+                                placeholder="Your message"></textarea>
                         </div>
                     </div>
                     <div class="row">
@@ -464,10 +466,18 @@
             </div>
             <div class="col span-1-of-2">
                 <ul class="social-links">
-                    <li><a href=""><ion-icon name="logo-facebook" class="f"></ion-icon></a></li>
-                    <li><a href=""><ion-icon name="logo-twitter" class="t"></ion-icon></a></li>
-                    <li><a href=""><ion-icon name="logo-googleplus" class="g"></ion-icon></a></li>
-                    <li><a href=""><ion-icon name="logo-instagram" class="i"></ion-icon></a></li>
+                    <li><a href="">
+                            <ion-icon name="logo-facebook" class="f"></ion-icon>
+                        </a></li>
+                    <li><a href="">
+                            <ion-icon name="logo-twitter" class="t"></ion-icon>
+                        </a></li>
+                    <li><a href="">
+                            <ion-icon name="logo-googleplus" class="g"></ion-icon>
+                        </a></li>
+                    <li><a href="">
+                            <ion-icon name="logo-instagram" class="i"></ion-icon>
+                        </a></li>
                 </ul>
             </div>
         </div>
@@ -478,8 +488,14 @@
         </div>
     </footer>
 
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
+    <script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js"></script>
+
 </body>
 
 </html>
-
