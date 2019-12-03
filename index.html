@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="vendors/css/normalize.css">
     <link rel="stylesheet" href="vendors/css/Grid.css">
+    <link rel="stylesheet" href="vendors/css/animate.css">
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
@@ -20,12 +21,14 @@
             <div class="row">
                 <img src="resources/img/logo-white.png" alt="Omnifood logo" class="logo">
                 <img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black">
-                <ul class="main-nav">
+                <ul class="main-nav js--main-nav">
                     <li><a href="#features">Food delivery</a></li>
                     <li><a href="#works">How it works</a></li>
                     <li><a href="#cities">Our cities</a></li>
                     <li><a href="#plans">Sign up</a></li>
                 </ul>
+                <a class="mobile-nav-icon js--nav-icon"><ion-icon name="menu"></ion-icon></a>
+                <a class="mobile-nav-icon js--nav-icon"><ion-icon name="close" class="hide"></ion-icon></a>
             </div>
         </nav>
 
@@ -46,7 +49,7 @@
             </p>
         </div>
 
-        <div class="row">
+        <div class="row js--wp-1">
             <div class="col span-1-of-4 box">
                 <ion-icon name="ios-infinite" class="icon-feature"></ion-icon>
                 <h3>Up to 365 days/year</h3>
@@ -140,7 +143,7 @@
         </div>
         <div class="row">
             <div class="col span-1-of-2 steps-box">
-                <img src="resources/img/app-iPhone.png" alt="omnifood app on iphone" class="app-screen">
+                <img src="resources/img/app-iPhone.png" alt="omnifood app on iphone" class="app-screen js--wp-3">
             </div>
             <div class="col span-1-of-2 steps-box">
                 <div class="works-step">
@@ -173,7 +176,7 @@
                 We're currently in these cities
             </h2>
         </div>
-        <div class="row">
+        <div class="row js--wp-2">
             <div class="col span-1-of-4 box">
                 <img src="resources/img/lisbon-3.jpg" alt="Lisbon">
                 <h3>Lisbon</h3>
@@ -280,7 +283,7 @@
         </div>
         <div class="row">
             <div class="col span-1-of-3">
-                <div class="plain-box">
+                <div class="plain-box js--wp-4">
                     <div class="">
                         <h3>
                             Premium
